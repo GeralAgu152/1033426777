@@ -1,0 +1,77 @@
+hostname = BEL-205-LW-008
+
+localhost = 127.0.0.1
+
+ping BEL-205-LW-008 = 192.168.56.1
+
+
+ping IP(del compañero) -t
+
+ctrl + c = detiene le ping o cualquier comando 
+
+brir otro comando (netstat)
+
+getmac
+
+C:\Users\bel-205-lw-008>hostname
+BEL-205-LW-008
+
+C:\Users\bel-205-lw-008>ping www.academia.uniminuto.edu
+La solicitud de ping no pudo encontrar el host www.academia.uniminuto.edu. Compruebe el nombre y
+vuelva a intentarlo.
+
+C:\Users\bel-205-lw-008>ping www.uniminuto.edu
+
+Haciendo ping a www1.uniminuto.edu [10.0.36.10] con 32 bytes de datos:
+Tiempo de espera agotado para esta solicitud.
+Tiempo de espera agotado para esta solicitud.
+Tiempo de espera agotado para esta solicitud.
+Tiempo de espera agotado para esta solicitud.
+
+Estadísticas de ping para 10.0.36.10:
+    Paquetes: enviados = 4, recibidos = 0, perdidos = 4
+    (100% perdidos),
+
+C:\Users\bel-205-lw-008>ping www.uniminuto.edu.co
+
+Haciendo ping a uniminuto.edu.co [186.28.232.10] con 32 bytes de datos:
+Respuesta desde 186.28.232.10: bytes=32 tiempo=35ms TTL=56
+Respuesta desde 186.28.232.10: bytes=32 tiempo=37ms TTL=56
+Respuesta desde 186.28.232.10: bytes=32 tiempo=36ms TTL=56
+Respuesta desde 186.28.232.10: bytes=32 tiempo=37ms TTL=56
+
+Estadísticas de ping para 186.28.232.10:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 35ms, Máximo = 37ms, Media = 36ms
+
+C:\Users\bel-205-lw-008>ping localhost
+
+Haciendo ping a BEL-205-LW-008.UMD.LOCAL.EDU [127.0.0.1] con 32 bytes de datos:
+Respuesta desde 127.0.0.1: bytes=32 tiempo<1m TTL=128
+Respuesta desde 127.0.0.1: bytes=32 tiempo<1m TTL=128
+Respuesta desde 127.0.0.1: bytes=32 tiempo<1m TTL=128
+Respuesta desde 127.0.0.1: bytes=32 tiempo<1m TTL=128
+
+Estadísticas de ping para 127.0.0.1:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 0ms, Máximo = 0ms, Media = 0ms
+
+C:\Users\bel-205-lw-008>ping BEL-205-LW-008
+
+Haciendo ping a BEL-205-LW-008.UMD.LOCAL.EDU [192.168.56.1] con 32 bytes de datos:
+Respuesta desde 192.168.56.1: bytes=32 tiempo<1m TTL=128
+Respuesta desde 192.168.56.1: bytes=32 tiempo<1m TTL=128
+Respuesta desde 192.168.56.1: bytes=32 tiempo<1m TTL=128
+Respuesta desde 192.168.56.1: bytes=32 tiempo<1m TTL=128
+
+Estadísticas de ping para 192.168.56.1:
+    Paquetes: enviados = 4, recibidos = 4, perdidos = 0
+    (0% perdidos),
+Tiempos aproximados de ida y vuelta en milisegundos:
+    Mínimo = 0ms, Máximo = 0ms, Media = 0ms
+
+C:\Users\bel-205-lw-008>
