@@ -1,0 +1,16 @@
+Tienda de Ropa: TalentoTechClothes
+
+Descripción: 
+la tinda de ropa "TalentoTechClothes" requiere llevar un registro y aseguramiento de las actividades relacionadas con su nicleo de negocio(ventas), realizada por sus vendedores en sus diferentes sedes a nivel nacional e internalcion a través d eun web de ventas en linea. 
+
+Escenario: los clientes de la tienda se registran y autentican en el sitio web y una vez realizado este proceso, proceden a seleccionar el articulo y luego realizn la respectiva compra.  
+
+
+Proceso: Ventas (modelamiento de diseño en 3d)
+Personas: Vendedores, Clientes, Proveedores (diseñor, clientes)
+Tecnología: Tienda virtual web (blender, maya)
+
+
+
+vulerabildiad cosas externas 
+amenza cosa interna

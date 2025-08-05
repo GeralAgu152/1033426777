@@ -1,0 +1,34 @@
+WINDOWS
+
+descargar nmap
+descargar Wireless network watcher
+
+HOST 
+IP  10.13.181.71
+MAC C8-5A-CF-0F-A3-65
+PC  BEL-205-LW-008
+
+
+GUEST
+
+IP  10.13.180.171
+MAC 08-00-27-7F-92-A0
+PC DESKTOP-PR2F3J7
+
+
+
+CON UN COMPAÑERO 
+IP DEL COMPAÑERO: 10.13.180.224
+
+PUERTOS ABIERTOS: 
+5357 Microsoft HTTPAPI httpd 2.0(SSDP/UPnP)
+
+
+GUEST CON TERCEROS
+TIK TOK
+
+IP 23.220.251.207
+
+PUERTOS ABIERTOS:
+80 AkamaiGHost (Akamai´s HTTP Acceleration/Mirror service)
+443 AkamaiGHost (Akamai´s HTTP Acceleration/Mirror service)

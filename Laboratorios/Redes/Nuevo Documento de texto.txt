@@ -75,3 +75,37 @@ Tiempos aproximados de ida y vuelta en milisegundos:
     Mínimo = 0ms, Máximo = 0ms, Media = 0ms
 
 C:\Users\bel-205-lw-008>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:loop
+
+echo Prueba de Ejecución de un DOS Local
+
+ping -t
+
+goto loop 
+
+pause
+
+
+
+tracert nombre de la maquina

